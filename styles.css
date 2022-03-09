@@ -1,0 +1,236 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+.section-one {
+    background-color: #1f2937;
+    height: 50vh;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 7vh;
+    /*border: 2px solid red;*/
+}
+
+#logo {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f9faf8;
+    font-size: 24px;
+    margin-left: 50px;
+    margin-top: 30px;
+    /*border: 2px solid lime;*/
+}
+
+.header-links {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    gap: 15px;
+    margin-right: 50px;
+    margin-top: 30px;
+    /*border: 2px solid lime;*/
+}
+
+#Link1,
+#Link2,
+#Link3 {
+    color: #e5e7eb;
+    font-size: 14px;
+    text-decoration: initial;
+    /*border: 2px solid orange;*/
+}
+
+.opening {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 110px;
+    /*border: 2px solid red;*/
+}
+
+.open-text {
+    height: 250px;
+    width: 450px;
+    padding: 0px;
+    /*border: 2px solid lime;*/
+}
+
+.intro-header {
+    color: #f9faf8;
+    font-weight: bolder;
+    font-size: 53px;
+    margin-bottom: 30px;
+    /*border: 2px solid orange;*/
+}
+
+#open-pic {
+    height: 250px;
+    width: 450px;
+    margin-left: 60px;
+    /*border: 2px solid orange;*/
+}
+
+.intro-text {
+    color: #e5e7eb;
+    font-size: 19px;
+    margin-bottom: 20px;
+    /*border: 2px solid orange;*/
+}
+
+.sign-up {
+    color: #e5e7eb;
+    font-size: 14px;
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    /*border: 2px solid orange;*/
+}
+
+.section-two {
+    background-color: white;
+    height: 35vh;
+    /*border: 2px solid red;*/
+}
+
+.section-two-title {
+    color: #1f2937;
+    font-weight: bolder;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+    /*border: 2px solid lime;*/
+}
+
+.adventure-topics {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 60px;
+    /*border: 2px solid lime;*/
+}
+
+#topic1,
+#topic2,
+#topic3,
+#topic4 {
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+    /*border: 2px solid orange;*/
+}
+
+.adventure-text {
+    font-weight: bold;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    /*border: 2px solid orange;*/
+}
+
+.section-three {
+    background-color: #e5e7eb;
+    background-image: url(img/beach-waves.jpg);
+    background-image: 100%;
+    height: 30vh;
+    /*border: 2px solid red;*/
+}
+
+.quote-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    /*border: 2px solid lime;*/
+}
+
+.quote-text {
+    margin-top: 100px;
+}
+
+.hawaiian-text,
+.hawaiian-translation {
+    color: #1f2937;
+    font-style: italic;
+    font-size: 39px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    /*border: 2px solid orange;*/
+}
+
+.quote-author {
+    font-size: 17px;
+    font-style: bolder;
+    display: flex;
+    justify-content: right;
+    /*border: 2px solid orange;*/
+}
+
+.section-four {
+    background-color: white;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*border: 2px solid red;*/
+}
+
+.action-block {
+    background-color: #3882f6;
+    height: 100px;
+    width: 750px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-container {
+    display: flex;
+}
+
+.action-header,
+.action-smtext {
+    color: #f9faf8;
+    margin-right: 70px;
+}
+
+.action-header {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.action-smtext {
+    font-size: 16px;
+}
+
+.action-signup {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: 1px solid #f9faf8;
+    border-radius: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+}
+
+.footer {
+    background-color: #1f2937;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    color: #f9faf8;
+}
