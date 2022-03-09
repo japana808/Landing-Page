@@ -3,25 +3,22 @@ body {
     padding: 0%;
 }
 
-.section-one {
-    background-color: #1f2937;
-    height: 50vh;
-}
-
 .header {
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
     height: 7vh;
+    width: 100%;
+    padding: 8px;
     /*border: 2px solid red;*/
 }
 
-#logo {
+.logo {
     font-family: Arial, Helvetica, sans-serif;
     color: #f9faf8;
     font-size: 24px;
-    margin-left: 50px;
-    margin-top: 30px;
+    margin-left: 20px;
     /*border: 2px solid lime;*/
 }
 
@@ -30,40 +27,51 @@ body {
     justify-content: space-between;
     padding: 0;
     gap: 15px;
-    margin-right: 50px;
-    margin-top: 30px;
+    margin-right: 20px;
     /*border: 2px solid lime;*/
 }
 
-#Link1,
-#Link2,
-#Link3 {
+.Link1,
+.Link2,
+.Link3 {
     color: #e5e7eb;
     font-size: 14px;
     text-decoration: initial;
     /*border: 2px solid orange;*/
 }
 
+.section-one {
+    background-color: #1f2937;
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .opening {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 110px;
     /*border: 2px solid red;*/
 }
 
 .open-text {
     height: 250px;
     width: 450px;
-    padding: 0px;
     /*border: 2px solid lime;*/
 }
 
 .intro-header {
     color: #f9faf8;
     font-weight: bolder;
-    font-size: 53px;
+    font-size: 48px;
     margin-bottom: 30px;
+    /*border: 2px solid orange;*/
+}
+
+.intro-text {
+    color: #e5e7eb;
+    font-size: 18px;
+    margin-bottom: 20px;
     /*border: 2px solid orange;*/
 }
 
@@ -71,13 +79,6 @@ body {
     height: 250px;
     width: 450px;
     margin-left: 60px;
-    /*border: 2px solid orange;*/
-}
-
-.intro-text {
-    color: #e5e7eb;
-    font-size: 19px;
-    margin-bottom: 20px;
     /*border: 2px solid orange;*/
 }
 
@@ -96,7 +97,9 @@ body {
 
 .section-two {
     background-color: white;
-    height: 35vh;
+    padding-top: 60px;
+    padding-bottom: 70px;
+    width: 100%;
     /*border: 2px solid red;*/
 }
 
@@ -106,7 +109,7 @@ body {
     font-size: 36px;
     display: flex;
     justify-content: center;
-    margin-top: 75px;
+    padding-bottom: 40px;
     /*border: 2px solid lime;*/
 }
 
@@ -114,8 +117,14 @@ body {
     display: flex;
     justify-content: center;
     gap: 70px;
-    margin-top: 60px;
     /*border: 2px solid lime;*/
+}
+
+.adventure-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 #topic1,
@@ -132,8 +141,6 @@ body {
 .adventure-text {
     font-weight: bold;
     font-size: 25px;
-    display: flex;
-    justify-content: center;
     /*border: 2px solid orange;*/
 }
 
@@ -141,34 +148,26 @@ body {
     background-color: #e5e7eb;
     background-image: url(img/beach-waves.jpg);
     background-image: 100%;
-    height: 30vh;
-    /*border: 2px solid red;*/
-}
-
-.quote-section {
+    height: 35vh;
     display: flex;
     justify-content: center;
-    margin-top: 90px;
-    /*border: 2px solid lime;*/
-}
-
-.quote-text {
-    margin-top: 100px;
+    align-items: center;
+    /*border: 2px solid red;*/
 }
 
 .hawaiian-text,
 .hawaiian-translation {
     color: #1f2937;
     font-style: italic;
-    font-size: 39px;
+    font-size: 36px;
     display: flex;
     justify-content: center;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     /*border: 2px solid orange;*/
 }
 
 .quote-author {
-    font-size: 17px;
+    font-size: 15px;
     font-style: bolder;
     display: flex;
     justify-content: right;
@@ -186,7 +185,7 @@ body {
 
 .action-block {
     background-color: #3882f6;
-    height: 100px;
+    height: 80px;
     width: 750px;
     border-radius: 8px;
     display: flex;
@@ -206,11 +205,11 @@ body {
 
 .action-header {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .action-smtext {
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .action-signup {
@@ -233,4 +232,5 @@ body {
 
 .footer-text {
     color: #f9faf8;
+    font-size: 12px;
 }
